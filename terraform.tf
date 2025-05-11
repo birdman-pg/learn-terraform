@@ -3,13 +3,14 @@
 
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  /* cloud {
+    organization = "birdman-tutorials"
 
     workspaces {
       name = "learn-terraform"
     }
   }
+*/
 
   required_providers {
     aws = {
@@ -20,3 +21,5 @@ terraform {
 
   required_version = "~> 1.2"
 }
+
+
